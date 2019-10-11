@@ -1,0 +1,63 @@
+nav {
+    height: 65px;
+    width: 100%;
+}
+
+.content-box {
+    background: mediumseagreen;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#headshot {
+    margin: 20px auto;
+    float: left;
+    padding: 9px 20px 9px 0;
+}
+
+#portfolio {
+    box-sizing: border-box;
+}
+
+.photos {
+    position:relative;
+    float: left;
+    width: 300px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+  
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+  
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+  
+  
