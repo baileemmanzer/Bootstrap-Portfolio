@@ -1,0 +1,34 @@
+nav {
+    height: 65px;
+    width: 100%;
+    margin: 25px auto;
+    align-content: center;
+}
+
+.container {
+    align-content: center;
+}
+
+.container2 {
+    background: mediumseagreen;
+    width: 800px;
+    height: 700px;
+    justify-content: center;
+    padding: 25px;
+    margin: 50px auto;
+    display:grid;
+}
+
+#headshot {
+    margin: 20px auto;
+    float: left;
+    padding: 9px 20px 9px 0;
+}
+
+.col-2 {
+    grid-column: left;
+}
+
+.col-10 {
+    grid-column: right;
+}
