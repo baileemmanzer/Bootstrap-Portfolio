@@ -13,6 +13,15 @@ body {
 
 nav {
    flex: left;
+   width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
 }
 
 .row2 {
@@ -32,4 +41,9 @@ nav {
     justify-content: left;
     padding: 25px;
     margin: 50px auto;
+}
+
+.photos {
+    height: 200px;
+    width: 100%;
 }
